@@ -172,6 +172,6 @@ async def get_result(user: str):
     else:
         raise HTTPException(status_code=404, detail="No data found for the user")
 
-if __name__ == '__main__':
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# if __name__ == '__main__':
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
